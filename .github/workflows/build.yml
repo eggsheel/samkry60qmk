@@ -45,12 +45,12 @@ jobs:
       - name: Copy keyboard into QMK tree
         run: |
           mkdir -p qmk_firmware/keyboards
-          cp -r user_repo/keyboards/samkry60_test qmk_firmware/keyboards/
+          cp -r user_repo/keyboards/handwired/samkry60_test qmk_firmware/keyboards/handwired/
 
       - name: Build firmware
         working-directory: qmk_firmware
         run: |
-          qmk compile -kb samkry60_test -km test
+          qmk compile -kb handwired/samkry60_test -km test
 
       - name: Upload UF2
         uses: actions/upload-artifact@v4
