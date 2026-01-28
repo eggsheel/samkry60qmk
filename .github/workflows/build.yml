@@ -31,7 +31,7 @@ jobs:
       - name: Copy keyboard into QMK
         run: |
           mkdir -p qmk_firmware/keyboards
-          cp -r custom/keyboards/samkry60_test qmk_firmware/keyboards/
+          cp -r keyboards/samkry60_test qmk_firmware/keyboards/
 
       - name: Build firmware
         working-directory: qmk_firmware
