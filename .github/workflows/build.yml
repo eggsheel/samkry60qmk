@@ -39,6 +39,11 @@ jobs:
           mkdir -p qmk_firmware/keyboards/handwired
           cp -r user_repo/keyboards/handwired/samkry60_test qmk_firmware/keyboards/handwired/
 
+      - name: List copied keyboard folder (debug)
+        run: |
+          ls -la qmk_firmware/keyboards/handwired/samkry60_test
+          ls -la qmk_firmware/keyboards/handwired/samkry60_test/keymaps/test
+
       - name: Build firmware
         working-directory: qmk_firmware
         run: |
