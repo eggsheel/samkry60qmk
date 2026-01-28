@@ -22,10 +22,12 @@ jobs:
         run: |
           echo "=== user_repo/keyboards ==="
           ls -la user_repo/keyboards
-          echo "=== user_repo/keyboards/samkry60_test ==="
-          ls -la user_repo/keyboards/samkry60_test
-          echo "=== user_repo/keyboards/samkry60_test/keymaps/test ==="
-          ls -la user_repo/keyboards/samkry60_test/keymaps/test
+          echo "=== user_repo/keyboards/handwired ==="
+          ls -la user_repo/keyboards/handwired
+          echo "=== user_repo/keyboards/handwired/samkry60_test ==="
+          ls -la user_repo/keyboards/handwired/samkry60_test
+          echo "=== user_repo/keyboards/handwired/samkry60_test/keymaps/test ==="
+          ls -la user_repo/keyboards/handwired/samkry60_test/keymaps/test
 
       - name: Install dependencies
         run: |
@@ -44,7 +46,7 @@ jobs:
 
       - name: Copy keyboard into QMK tree
         run: |
-          mkdir -p qmk_firmware/keyboards
+          mkdir -p qmk_firmware/keyboards/handwired
           cp -r user_repo/keyboards/handwired/samkry60_test qmk_firmware/keyboards/handwired/
 
       - name: Build firmware
