@@ -20,10 +20,6 @@ jobs:
 
       - name: Show folders (debug)
         run: |
-          echo "=== workspace ==="
-          ls -la
-          echo "=== user_repo ==="
-          ls -la user_repo
           echo "=== user_repo/keyboards ==="
           ls -la user_repo/keyboards
           echo "=== user_repo/keyboards/samkry60_test ==="
