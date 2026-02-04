@@ -15,7 +15,9 @@ Table of contents:
   
   6.) Getting the board to work
 
-
+-
+-
+-
 
 1.) Full Item list:
 Below is the full item list necessary to have a functioning SamKry60% keyboard. The items with an * next to it, are absolute necessities to get a fully functioning keyboard. The rest are just reccomendations.
