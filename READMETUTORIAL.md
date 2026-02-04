@@ -3,17 +3,17 @@ This readme file will break down every single thing on how to get to the keyboar
 
 Table of contents: 
  
-  1.) Full Item list 
+   1.) Full Item list 
   
-  2.) Buying the PCB / What even is a PCB
+   2.) Buying the PCB / What even is a PCB
   
-  3.) PCB reccomendations/tips 
+   3.) PCB reccomendations/tips 
   
-  4.) Soldering / Putting it together
+   4.) Soldering / Putting it together
   
-  5.) Case design 
+   5.) Case design 
   
-  6.) Getting the board to work
+   6.) Getting the board to work
 
 
 
