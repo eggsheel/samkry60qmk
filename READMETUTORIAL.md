@@ -18,7 +18,7 @@ Below is the full item list necessary to have a functioning SamKry60% keyboard. 
   - 68 DO-35 1N4148 diodes* (I reccomend getting 80-90)
   - 1 RP2040 zero* 
   - USBC cable* 
-  - Soldering Iron* (neccasry if you solder of course)
+  -   Soldering Iron* (neccasry if you solder of course)
   - Solder* 
   - Desoldering tool* (no one makes no mistakes when soldering, this makes it easier to fix said mistakes)
   - Wet Sponge* (needed for cleaning the hot soldering tip) 
@@ -41,15 +41,15 @@ Below is the full item list necessary to have a functioning SamKry60% keyboard. 
   - I reccomend JLCPCB as they give you the most bang for your buck. 
   - For help uploading to JLCPCB look below (this is very similar to the instructions you would follow for other manufactureres if you dont use JLC).
   -  
-  -     Go to  https://jlcpcb.com/
-  -     Make an account if you havent already, after that go back to the home page.
-  -     Press get instant quote
-  -     Upload the Gerber file you downloaded earlier
-  -     It should auto upload all of the appropiate settings, I wouldnt reccomend changing any of them after upload unless you are very familiar with the settings you are changing (unless its color, which is just personal preferencebut it will most likely take around 2 days longer to get the PCB if you change the color).
-            - Go to order, input information and such. 
-            - Change Shipping to cheapest possible option!!! It typically automatically goes to one of the most expensive options, in fact alot of the time shipping comes to be more expensive than the PCB itself (unless you pick the cheapest option).
-            - Apply coupons if you can! JLCPCB is typically really good with coupons especially with new accounts. 
-            - Now you can just order! Of course make sure your adress and delivery instructions are updated to what you need!
+  - Go to  https://jlcpcb.com/
+  - Make an account if you havent already, after that go back to the home page.
+  - Press get instant quote
+  - Upload the Gerber file you downloaded earlier
+  - It should auto upload all of the appropiate settings, I wouldnt reccomend changing any of them after upload unless you are very familiar with the settings you are changing (unless its color, which is just personal preferencebut it will most likely take around 2 days longer to get the PCB if you change the color).
+  - Go to order, input information and such.
+  - Change Shipping to cheapest possible option!!! It typically automatically goes to one of the most expensive options, in fact alot of the time shipping comes to be more expensive than the PCB itself (unless you pick the cheapest option).
+  - Apply coupons if you can! JLCPCB is typically really good with coupons especially with new accounts.
+  - Now you can just order! Of course make sure your adress and delivery instructions are updated to what you need!
 
 4.) Soldering / Putting it together
                 QUICK FOOTNOTE: some PCB manufacturers do offer PCB assembely, I know JLC PCB offers it for the first time at least for free (supposedly), but it still may add costs no matter the manufacturer. I also know that you must upload a parts list, see if it complies with their components, and see if they can even do it. I have never done this so I cant reccomend it, please do reaserch and look into your manufacturers process before you go through with this. 
