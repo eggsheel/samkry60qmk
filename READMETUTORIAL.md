@@ -2,6 +2,7 @@ This is the Custom SamKry60% keyboard!
 This readme file will break down every single thing on how to get to the keyboard actually working, to how to buy it. 
 
 Table of contents: 
+ 
   1.) Full Item list 
   
   2.) Buying the PCB / What even is a PCB
