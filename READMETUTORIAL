@@ -1,0 +1,48 @@
+This is the Custom SamKry60% keyboard! 
+This readme file will break down every single thing on how to get to the keyboard actually working, to how to buy it. 
+
+Table of contents: 
+  1.) Full Item list 
+  2.) Buying the PCB / What even is a PCB
+  3.) PCB reccomendations/tips 
+  4.) Soldering / Putting it together
+  5.) Case design 
+  6.) Getting the board to work
+
+
+
+1.) Full Item list:
+Below is the full item list necessary to have a functioning SamKry60% keyboard. The items with an * next to it, are absolute necessities to get a fully functioning keyboard. The rest are just reccomendations.
+  - Samkry60 PCB* (I will go more into depth on how to purchse this on 2, Buying the PCB / What even is a PCB)
+  - 68 mechanical keyboard switches* (PCB mount switches are reccomended and get around 80). I reccomend doing some sort of research into what type of switch you like, as in linear, tactile, or clicky. I reccomend getting swtiches off of sellers on Amazon, and mechanicalkeyboards.com. But there is alot of other market places you may like. Make sure to compare the price to others before you purchase.
+  - 68 DO-35 1N4148 diodes* (I reccomend getting 80-90)
+  - 1 RP2040 zero* 
+  - USBC cable* 
+  - 5 Cherry MX screw in stabilizers (not "necesarry" for a working board but it is extremely more inconvenient to type without this)  
+  - Keycaps set (though it is not "necessary" because itll still work without it, I cant imagine anyone would type on the bare switches) 
+  - Case (Case design will be later explained)
+  - M2 2.1 mm mounting screws (5 needed if you are making the case) this is needed for mounting the PCB to the case
+  - 9 1/2 inch screws (used for holding the case together) 
+
+2.) Buying the PCB / What even is a PCB
+  - Think of a PCB like the motherboard of the keyboard, it holds everything together and helps it talk to the PC and get the keyboard to work. 
+  - To get the PCB download this (INSERT GERBER FILE DOWNLOAD LINK)
+  - From here you can use that download link and put it into some gerber to order sites. This essentially uploads the file, and makes it ready for purchase. 
+
+3.) PCB reccomendations/tips
+  - Some popular GERBER to order PCB sites are Elecrow, FusionPCB, PCBway, and JLCPCB.
+  - I reccomend JLCPCB as they give you the most bang for your buck. 
+  - For help uploading to JLCPCB look below (this is very similar to the instructions you would follow for other manufactureres if you dont use JLC.
+            - Go to   https://jlcpcb.com/
+            - Make an account if you havent already, after that go back to the home page.
+            - Press get instant quote
+            - Upload the Gerber file you downloaded earlier
+            - It should auto upload all of the appropiate settings, I wouldnt reccomend changing any of them after upload unless you are very familiar with the settings you are changing (unless its color, which is just personal preferencebut it will most likely take around 2 days longer to get the PCB if you change the color).
+            - 
+
+4.) Soldering / Putting it together
+  - 
+5.) Case Design
+  - 
+6.) Getting the board to work
+  - 
