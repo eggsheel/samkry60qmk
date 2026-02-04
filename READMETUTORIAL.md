@@ -40,8 +40,8 @@ Below is the full item list necessary to have a functioning SamKry60% keyboard. 
   - Some popular GERBER to order PCB sites are Elecrow, FusionPCB, PCBway, and JLCPCB.
   - I reccomend JLCPCB as they give you the most bang for your buck. 
   - For help uploading to JLCPCB look below (this is very similar to the instructions you would follow for other manufactureres if you dont use JLC).
-  -  
-  - Go to  https://jlcpcb.com/
+    
+  -- Go to  https://jlcpcb.com/
   - Make an account if you havent already, after that go back to the home page.
   - Press get instant quote
   - Upload the Gerber file you downloaded earlier
@@ -51,6 +51,7 @@ Below is the full item list necessary to have a functioning SamKry60% keyboard. 
   - Apply coupons if you can! JLCPCB is typically really good with coupons especially with new accounts.
   - Now you can just order! Of course make sure your adress and delivery instructions are updated to what you need!
 
+    
 4.) Soldering / Putting it together
                 QUICK FOOTNOTE: some PCB manufacturers do offer PCB assembely, I know JLC PCB offers it for the first time at least for free (supposedly), but it still may add costs no matter the manufacturer. I also know that you must upload a parts list, see if it complies with their components, and see if they can even do it. I have never done this so I cant reccomend it, please do reaserch and look into your manufacturers process before you go through with this. 
   - Gather all of your tools and components in a clear space. Work under a table or material that is unable to get burned or catch fire. 
