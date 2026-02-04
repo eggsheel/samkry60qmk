@@ -71,9 +71,22 @@ Below is the full item list necessary to have a functioning SamKry60% keyboard. 
       - Soldering these pins is very similar to the switches but you have to be slower because it is much smaller. 
       - I reccomend putting some solder on your tip, and putting the solder wire on the back of the pin and just wait a couple of seconds for it to melt. It should melt right into the pin perfectly. If it doesnt, try to rinse and repeat, if that doesnt work try touching the solder wire and the soldering iron directly on the base of the pin. 
       - At this point it is very common for beginners for too much solder to get used and for two pins to get connected. If this happens, you can melt the solder with your soldering iron, than when its melted (itll look liquidy) you can put your desolder gun right and on it and press. 
-
-                                                                                                                                              
+      - After you do this to the RP2040zero pins on the top of the board, you must do it to the pins on the RP2040zero pins on the bottom of the board. 
+                                                                                                                               
 5.) Case Design
   - 
+
 6.) Getting the board to work
-  - 
+  - To get the board to actually work, you must upload the UF2 file. Lucky for you, I made it !
+  - On the RP2040 Zero there should be a button called boot. Hold it down while plugging in the board. In your file explorer should be a drive that appears called RP1-RP2.
+  - In the Github Repository, go to actions, Under all workflows press "Build samkry60 UF2".
+  - Upon pressing this, after a few seconds, there should be a prompt that shows up that says "This workflow has a workflow_dispatch event trigger". Press run work flow and wait for it to build.
+  - Should take 2+ minutes to finish running, you should know that its done running after the yellow circle indicating that its running turns into a green checkmark. 
+  - From here, press on the work flow that just ran, its under all work flows and should be at the top (make sure your in the actions tab). Itll bring you into the summary section.
+  - Scroll down until you see Artifacts, it should be near the top, than press the first name in artifacts, it is samkry60_test_uf2. This will download the UF2. 
+  - After the UF2 is downloaded, drag it into the RP1-RP2 drive. It should automatically close. From here unplug it than replug it back in NOT pressing down any button on the RP2040 zero. 
+  - Now you should have a fully functioning keyboard !!! 
+
+SamKry60 Custom Keyboard brought to you by:
+Samuel Astudillo - samuelastudillo201@gmail.com
+Krystian Solowiej - KrySolowiej678@gmail.com
